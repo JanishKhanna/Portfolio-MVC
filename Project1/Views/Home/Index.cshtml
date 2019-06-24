@@ -1,0 +1,603 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+
+
+<!DOCTYPE HTML>
+<!--
+    uBeasa by freshdesignweb.com
+    Twitter: https://twitter.com/freshdesignweb
+    URL: https://www.freshdesignweb.com
+-->
+<html>
+<head>
+    <script src="~/Scripts/SyntaxHighlighter/shCore.js"></script>
+    <script src="~/Scripts/SyntaxHighlighter/shBrushJScript.js"></script>
+    <link href="~/Content/SyntaxHighlighter/shCore.css" />
+    <link href="~/Content/SyntaxHighlighter/shThemeEmacs.css" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>uBeasa &mdash; Free HTML5 Template by freshdesignweb.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Website Template by freshdesignweb.com" />
+    <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="freshdesignweb.com" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> -->
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="~/css/animate.css">
+    <!-- Icomoon Icon Fonts-->   ~/
+    <link rel="stylesheet" href="~/css/icomoon.css">
+    <!-- Themify Icons-->        ~/
+    <link rel="stylesheet" href="~/css/themify-icons.css">
+    <!-- Bootstrap  -->          ~/
+    <link rel="stylesheet" href="~/css/bootstrap.css">
+    <!-- Magnific Popup -->      ~/
+    <link rel="stylesheet" href="~/css/magnific-popup.css">
+    <!-- Owl Carousel  -->       ~/
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/css/owl.theme.default.min.css">
+    <!-- Flexslider -->          ~/
+    <link rel="stylesheet" href="~/css/flexslider.css">
+    <!-- Theme style  -->        ~/
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="~/js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <div class="ubea-loader"></div>
+
+    <div id="page">
+        <nav class="ubea-nav" role="navigation">
+            <div class="ubea-container">
+                <div class="row">
+                    <div class="col-sm-2 col-xs-12">
+                        <img class="logo" src="~/images/logo.png" />
+                    </div>
+                    <div class="col-xs-10 text-right menu-1 main-nav">
+                        <ul>
+                            <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+                            <li><a href="#" data-nav-section="portfolio">Portfolio</a></li>
+                            <li><a href="#" data-nav-section="about">About</a></li>
+                            <li><a href="#" data-nav-section="contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <div id="ubea-hero" class="js-fullheight" data-section="home">
+            <div class="flexslider js-fullheight">
+                <ul class="slides">
+
+                    <li style="background-image: url(@Url.Content("~/images/background1.jpg"));">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+                                <div class="slider-text-inner">
+                                    <h2>Janish Khanna</h2>
+                                    <h2>Front-End Developer</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url(@Url.Content("~/images/img_bg_2.jpg"));">
+                        <div class="overlay"></div>
+                        <div class="container">
+                            <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+                                <div class="slider-text-inner">
+                                    <h2>Think. Create. Explore.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="ubea-section-overflow">
+            <div class="ubea-section" id="ubea-portfolio" data-section="portfolio">
+                <div class="ubea-container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 text-center ubea-heading">
+                            <h2 style="margin-top:50px">Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a data-toggle="modal" data-target="#myModal" class="ubea-card-item " title="JS Exercises">
+                                <figure>
+                                    <div class="overlay"><i class="ti-plus"></i></div>
+                                    <img src="~/images/jsexercise.jpg" alt="Image" class="img-responsive" style="width: 303.3px; height: 225.33px;">
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="https://github.com/JanishKhanna/Frogger-Game" class="ubea-card-item" title="Arcade Game">
+                                <figure>
+                                    <div class="overlay"><i class="ti-plus"></i></div>
+                                    <img src="~/images/arcade.png" alt="Image" class="img-responsive" style="width: 303.3px; height: 225.33px;">
+                                </figure>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="https://github.com/JanishKhanna/Pig-Game" class="ubea-card-item" title="Roll Dice Game">
+                                <figure>
+                                    <div class="overlay"><i class="ti-plus"></i></div>
+                                    <img src="~/images/dicegame.png" alt="Image" class="img-responsive" style="width: 303.3px; height: 225.33px;">
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://github.com/JanishKhanna/Pixel-Art-Maker" class="ubea-card-item" title="Pixel Art Maker">
+                                <figure>
+                                    <div class="overlay"><i class="ti-plus"></i></div>
+                                    <img src="~/images/pixelart.png" alt="Image" class="img-responsive" style="width: 303.3px; height: 225.33px;">
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ubea-blog" data-section="about">
+            <div class="ubea-container">
+                <div class="row" style="background-color:darksalmon">
+                    <div class="col-md-8 col-md-offset-2 text-center ubea-heading">
+                        <h2 style="margin-top:33px">About</h2>
+                        <p>I am Young, Passionate Beginner in the field of Information and Technology, currently studying Software Developer Course in Manitoba Institute of Trades and Technology.</p>
+                        <p>I want to become a successful Full-Stack Developer and start up my own company after gaining some experience in this Industry.</p>
+                        <p>I like to Work in group projects as it benifits to explore and helps to know how people think and upto what extend they can think.</p>
+                        <p>I like Mental-Maths and like to solve problems. I also like to play Badminton and Chess in my free time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ubea-contact" data-section="contact" class="ubea-cover ubea-cover-xs">
+            <div class="overlay"></div>
+            <div class="ubea-container">
+                <div class="row text-center">
+                    <div class="col-md-8 col-md-offset-2 text-center ubea-heading">
+                        <h2 style="margin-top:80px">Contact Me</h2>
+                    </div>
+                    <div class="display-t">
+                        <div class="display-tc">
+                            <div class="col-md-12">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <label for="exampleInputName2">Name</label>
+                                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Full Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail2">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="your-email@example.com">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Send invitation</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="ubea-footer" role="contentinfo">
+            <div class="ubea-container">
+
+                <div class="row copyright">
+                    <div class="col-md-12">
+                        <p class="pull-right">
+                            <ul class="ubea-social-icons pull-right">
+                                <li><a href="https://github.com/janishkhanna"><i style="font-size:40px" class="icon-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/janish-khanna-88818617a/"><i style="font-size:40px" class="icon-linkedin"></i></a></li>
+                                <li><a href="~/resume.pdf"><i style="font-size:40px" class="icon-text-document"></i></a></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#ex1" aria-controls="ex1" role="tab" data-toggle="tab">Exercise 1</a></li>
+                            <li role="presentation"><a href="#ex2" aria-controls="ex2" role="tab" data-toggle="tab">Exercise 2</a></li>
+                            <li role="presentation"><a href="#ex3" aria-controls="ex3" role="tab" data-toggle="tab">Exercise 3</a></li>
+                            <li role="presentation"><a href="#ex4" aria-controls="ex4" role="tab" data-toggle="tab">Exercise 4</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="ex1">
+                                <form class="frm-test ex1">
+
+                                    <input type="number" required min="0" class="num1" id="number1" placeholder="1st Number" />
+                                    <input type="number" required min="0" class="num2" id="number2" placeholder="2nd Number" />
+                                    <input type="number" required min="0" class="num3" id="number3" placeholder="3rd Number" />
+                                    <input type="number" required min="0" class="num4" id="number4" placeholder="4th Number" />
+                                    <input type="number" required min="0" class="num5" id="number5" placeholder="5th Number" />
+
+                                    <button type="button" id="btn-find">Find</button>
+
+                                </form>
+
+                                <h4>a. Determine which number is the least</h4>
+                                <span id="answer1"></span>
+                                <h4>b. Determine which number is the greatest</h4>
+                                <span id="answer2"></span>
+                                <h4>c. Determine the mean of the numbers</h4>
+                                <span id="answer3"></span>
+                                <h4>d. Determine the sum of all the numbers</h4>
+                                <span id="answer4"></span>
+                                <h4>e. Determine the product of all the numbers</h4>
+                                <span id="answer5"></span>
+
+                                <details>
+                                    <summary>Show Code</summary>
+                                    <div>
+                                        <pre class="brush: js">
+                                            $(document).ready(function () {
+                                                $("#btn-find").click(function () {
+                                                    const num1 = parseInt($("#number1").val());
+                                                    const num2 = parseInt($("#number2").val());
+                                                    const num3 = parseInt($("#number3").val());
+                                                    const num4 = parseInt($("#number4").val());
+                                                    const num5 = parseInt($("#number5").val());
+                                                    const span1 = $("#answer1");
+                                                    const span2 = $("#answer2");
+                                                    const span3 = $("#answer3");
+                                                    const span4 = $("#answer4");
+                                                    const span5 = $("#answer5");
+                                                    let result1;
+                                                    let result2;
+                                                    let result3;
+                                                    let result4;
+                                                    let result5;
+
+                                                    const myArr1 = [num1, num2, num3, num4, num5]
+                                                    result1 = Math.min(...myArr1);
+
+                                                    span1.html(result1)
+
+                                                    const myArr2 = [num1, num2, num3, num4, num5]
+                                                    result2 = Math.max(...myArr2);
+
+                                                    span2.html(result2)
+
+                                                    const mean = (num1 + num2 + num3 + num4 + num5) / 5
+                                                    result3 = mean
+
+                                                    span3.html(result3)
+
+                                                    const sum = (num1 + num2 + num3 + num4 + num5)
+                                                    result4 = sum
+
+                                                    span4.html(result4)
+
+                                                    const product = (num1 * num2 * num3 * num4 * num5)
+                                                    result5 = product
+
+                                                    span5.html(result5)
+                                                })
+                                            })
+                                        </pre>
+                                    </div>
+                                </details>
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="ex2">
+                                <form class="form-inline ex2">
+                                    <div class="form-group">
+                                        <label>Enter Number</label>
+                                        <input type="number" class="form-control" id="number" placeholder="Number" required min="1" />
+                                    </div>
+                                    <button type="submit">Factorial</button>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="factorial" />
+                                    </div>
+                                </form>
+
+                                <details>
+                                    <summary>Show Code</summary>
+                                    <div>
+                                        <pre class="brush: js">
+                                            $(document).ready(function () {
+                                                $(".form-inline").submit(function (e) {
+                                                    e.preventDefault();
+                                                    let number = +$("#number").val()
+                                                    let factorial;
+                                                    const myInput = $("#factorial");
+                                                    for (let z = number - 1; z >= 1; z--) {
+                                                        number = (number) * (z)
+                                                    }
+
+                                                    factorial = number
+                                                    console.log(number)
+
+                                                    if (number === 0 || number === 1) {
+                                                        factorial = 1
+                                                    }
+
+                                                    myInput.attr("value", factorial)
+                                                })
+                                            })                                    
+                                        </pre>
+                                    </div>
+                                </details>
+
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="ex3">
+                                <form class="form-inline ex3">
+                                    <div class="form-group">
+                                        <label>Enter Number</label>
+                                        <input style="width:150px" type="number" class="form-control" id="num1" placeholder="First Number" required min="1" max="100" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input style="width:150px" type="number" class="form-control" id="num2" placeholder="Second Number" required min="1" max="100" />
+                                    </div>
+
+                                    <button type="submit">Submit</button>
+                                </form>
+
+                                <div id="output-1">
+
+                                </div>
+
+                                <details>
+                                    <summary>Show Code</summary>
+                                    <div>
+                                        <pre class="brush: js">
+                                            $(document).ready(function () {
+                                                $(".ex3").submit(function (e) {
+                                                    e.preventDefault();
+                                                    const input1 = +$("#num1").val();
+                                                    const input2 = +$("#num2").val();
+                                                    let result = "";
+                                                    let output = $("#output-1");
+                                                    for (let z = 1; z <= 100; z++) {
+
+                                                        if (z % input1 === 0 && z % input2 === 0) {
+                                                            result = result + "<p> FizzBuzz </p>";
+                                                        } else if (z % input1 === 0) {
+                                                            result = result + "<p> Fizz </p>";
+                                                        } else if (z % input2 === 0) {
+                                                            result = result + "<p> Buzz </p>";
+                                                        } else {
+                                                            result = result + `<p> ${z} </p>`
+                                                        }
+                                                    }
+
+                                                    output.html(result);
+                                                })
+                                            })
+                                        </pre>
+                                    </div>
+                                </details>
+
+                            </div>
+
+                            <div role="tabpanel" class="tab-pane" id="ex4">
+                                <form id="form">
+                                    <input type="text" id="phrase" required />
+                                    <button type="submit" id="btn-find">Submit</button>
+                                </form>
+
+                                <h3 id="output-2"></h3>
+
+                                <details>
+                                    <summary>Show Code</summary>
+                                    <div>
+                                        <pre class="brush: js">
+                                            $(document).ready(function () {
+                                                $("#form").submit(function (e) {
+                                                    e.preventDefault();
+                                                    const phrase = $("#phrase").val();
+                                                    const myArr = [...phrase];
+                                                    const reversedPhrase = myArr.reverse().join("");
+                                                    const output = $("#output-2");
+
+                                                    if (phrase === reversedPhrase) {
+                                                        output.html(`${phrase} is a Palindrome.`);
+                                                    } else {
+                                                        output.html(`${phrase} is not a Palindrome.`);
+                                                    }
+                                                })
+                                            }) 
+                                        </pre>
+                                    </div>
+                                </details>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="~/js/jquery.min.js"></script>
+    <!-- jQuery E~/asing -->
+    <script src="~/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstra~/p -->
+    <script src="~/js/bootstrap.min.js"></script>
+    <!-- Waypoint~/s -->
+    <script src="~/js/jquery.waypoints.min.js"></script>
+    <!-- Carousel~/ -->
+    <script src="~/js/owl.carousel.min.js"></script>
+    <!-- countTo ~/-->
+    <script src="~/js/jquery.countTo.js"></script>
+    <!-- Flexslid~/er -->
+    <script src="~/js/jquery.flexslider-min.js"></script>
+    <!-- Magnific~/ Popup -->
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/magnific-popup-options.js"></script>
+    <!-- Main -->~/
+    <script src="~/js/main.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#btn-find").click(function () {
+
+                const num1 = parseInt($("#number1").val());
+                const num2 = parseInt($("#number2").val());
+                const num3 = parseInt($("#number3").val());
+                const num4 = parseInt($("#number4").val());
+                const num5 = parseInt($("#number5").val());
+                const span1 = $("#answer1");
+                const span2 = $("#answer2");
+                const span3 = $("#answer3");
+                const span4 = $("#answer4");
+                const span5 = $("#answer5");
+                let result1;
+                let result2;
+                let result3;
+                let result4;
+                let result5;
+
+                const myArr1 = [num1, num2, num3, num4, num5]
+                result1 = Math.min(...myArr1);
+
+                span1.html(result1)
+
+                const myArr2 = [num1, num2, num3, num4, num5]
+                result2 = Math.max(...myArr2);
+
+                span2.html(result2)
+
+                const mean = (num1 + num2 + num3 + num4 + num5) / 5
+                result3 = mean
+
+                span3.html(result3)
+
+                const sum = (num1 + num2 + num3 + num4 + num5)
+                result4 = sum
+
+                span4.html(result4)
+
+                const product = (num1 * num2 * num3 * num4 * num5)
+                result5 = product
+
+                span5.html(result5)
+            })
+
+        })
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".form-inline").submit(function (e) {
+                e.preventDefault();
+                let number = +$("#number").val()
+                let factorial;
+                const myInput = $("#factorial");
+                for (let z = number - 1; z >= 1; z--) {
+                    number = (number) * (z)
+                }
+
+                factorial = number
+                console.log(number)
+
+                if (number === 0 || number === 1) {
+                    factorial = 1
+                }
+
+                myInput.attr("value", factorial)
+            })
+        })
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".ex3").submit(function (e) {
+                e.preventDefault();
+                const input1 = +$("#num1").val();
+                const input2 = +$("#num2").val();
+                let result = "";
+                let output = $("#output-1");
+                for (let z = 1; z <= 100; z++) {
+
+                    if (z % input1 === 0 && z % input2 === 0) {
+                        result = result + "<p> FizzBuzz </p>";
+                    } else if (z % input1 === 0) {
+                        result = result + "<p> Fizz </p>";
+                    } else if (z % input2 === 0) {
+                        result = result + "<p> Buzz </p>";
+                    } else {
+                        result = result + `<p> ${z} </p>`
+                    }
+                }
+
+                output.html(result);
+            })
+        })
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#form").submit(function (e) {
+                e.preventDefault();
+                const phrase = $("#phrase").val();
+                const myArr = [...phrase];
+                const reversedPhrase = myArr.reverse().join("");
+                const output = $("#output-2");
+
+                if (phrase === reversedPhrase) {
+                    output.html(`${phrase} is a Palindrome.`);
+                } else {
+                    output.html(`${phrase} is not a Palindrome.`);
+                }
+            })
+        })
+    </script>
+
+    <script type="text/javascript">SyntaxHighlighter.all();</script>
+
+</body>
+</html>
+
